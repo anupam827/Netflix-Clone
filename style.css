@@ -97,9 +97,11 @@ body {
     
 }
 hr{
-    height: 0.5rem;
-    color: #888888ef;
+    padding-top: 0;
+    margin: 0;
+    height: 0.4rem;
     border: none;
+    background-color: #4d4d4d;
 }
 .tv{
     background-color: #000;
@@ -116,6 +118,7 @@ hr{
     
 }
 .tv h1{
+
     font-weight: 900;
     font-size: 3.5rem;
     color: #fff;
@@ -124,8 +127,112 @@ hr{
     font-weight: 400;
     font-size: 1.5rem;
     color: #fff;
+    height: 20rem;
 }
-.tv-img{
+.tv-img img{
+    position: relative;
+    left: 15rem;
+    top: 4rem;
+    height: 20rem;
+    width: 30rem ;
+}
+.mob-container{
+    background-color: #000;
+    height: auto;
+    width: auto;
+    display: flex;
+}
+.mob-text {
+    color: #fff;
+    font-size: 1.5rem;
+    position: relative;
+    left: 7rem;
+    top: 5rem;
+    
+}
+.mob-text h1{
+
+    font-weight: 900;
+    font-size: 3.5rem;
+    color: #fff;
+}
+.mob-text p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #fff;
+    height: 15rem;
+}
+.mob-img img{
+    position: relative;
+    left: 5rem;
+    top: 4rem;
+    height: 20rem;
+    width: 30rem ;
+}
+.desktop{
+    background-color: #000;
+    height: auto;
+    width: auto;
+    display: flex;
+}
+.desktop-text {
+    color: #fff;
+    font-size: 1.5rem;
+    position: relative;
+    left: 7rem;
+    top: 5rem;
+    
+}
+.desktop-text h1{
+
+    font-weight: 900;
+    font-size: 3.5rem;
+    color: #fff;
+}
+.desktop-text p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #fff;
+    height: 20rem;
+}
+.desktop-img img{
+    position: relative;
+    left: 13rem;
+    top: 5rem;
+    height: 20rem;
+    width: 30rem ;
+}
+
+.kid{
+    background-color: #000;
+    height: auto;
+    width: auto;
+    display: flex;
+}
+.kid-text {
+    color: #fff;
+    font-size: 1.5rem;
     position: relative;
     left: 10rem;
+    top: 6rem;
+    
+}
+.kid-text h1{
+
+    font-weight: 900;
+    font-size: 3.5rem;
+    color: #fff;
+}
+.kid-text p{
+    font-weight: 400;
+    font-size: 1.5rem;
+    color: #fff;
+    height: 20rem;
+}
+.kid-img img{
+    position: relative;
+    left: 7rem;
+    top: 6rem;
+    height: 20rem;
+    width: 30rem ;
 }
